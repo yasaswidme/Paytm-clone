@@ -1,0 +1,480 @@
+ .menu_bar{
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0rem;
+ }
+ .menu_bar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .menu_bar ul li{
+    margin: 0 20px;
+ }
+ .menu_bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    padding: 13px;
+ }
+ .menu_bar ul li a:hover{
+    background-color: rgba(238, 241, 241, 0.488);
+    
+ }
+ .menu_bar ul li a:hover.dropdown1 ul li {
+   width: 150px;
+   padding: 10px;
+ }
+ .menu_bar ul li a:hover.dropdown1{
+    display: block;
+    left: 0;
+    top: 100%;
+    position: relative;
+ }
+ .menu_bar ul li a:hover.dropdown1 ul{
+    display: block;
+    margin: 10px;
+ }
+ .menu_bar ul li a:hover.dropdown1 ul li{
+    width: 150px;
+    padding: 10px;
+ }
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.Sign-in{
+    border-radius: 50px;
+    background-color: lightskyblue;
+}
+.travel-category div{
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.types div i{
+    margin-right: 10px;
+}
+.travel-category div a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.travel-category{
+   display: flex;
+   margin-top: 80px;
+   margin-left: 150px;
+}
+.travel-category .types div{
+    margin-right: 50px;
+}
+.travel-category div{
+    display: flex;
+    align-items: center;
+}
+.travelling-way{
+    /* display: flex; */
+    border: 1px solid gray;
+    margin: 20px 150px;
+    background-color: white;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    height: 210px;
+}
+.travelling-way .buttons{
+    cursor: pointer;
+    display: flex;
+}
+button{
+    cursor: pointer;
+}
+/* #del{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.above{
+    opacity:0.4;
+    font-size: 0.8rem;
+}
+.below{
+    opacity:0.4;
+    font-size: 0.8rem; 
+} */
+.from-address div{
+    margin-top: 20px;
+    margin-right: 185px;
+    opacity: 0.5;
+}
+.from-address{
+    display: flex;
+}
+.search-box{
+    display: flex;
+}
+.search-box div{
+    margin-top: 20px;
+    margin-right: 185px;
+}
+/* .fa-solid{
+    opacity: 0.5;
+    margin-right: 15px;
+} */
+#pay{
+    color: rgb(0, 0, 255);
+    font-weight: bold;
+}
+#tm{
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+}
+.travel-category .paytm-travel div{
+    margin-left: 570px;
+    font-size: 1.7rem;
+    font-family:fantasy;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    height: 330px;
+    margin-top: 50px;
+}
+.cards div img{
+    width: 400px;
+    border-radius: 15px;
+    padding: 5px;
+}
+#map {
+    height: 500px;
+    width: 100%;
+}
+.location-info {
+    margin-top: 10px;
+}
+#section1{
+    background-color: rgba(135, 206, 250, 0.26);
+}
+#head1{
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+.bills{
+   background-color: rgb(91, 198, 241);
+   padding: 40px 150px;
+   height: auto;
+
+}
+.bills div a{
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+   
+}
+.bills div a img{
+    width: 60px;
+}
+
+.bills-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 20px;
+    width: 100px;
+}
+.bills-items div a{
+    display: inline-block;
+    margin-bottom: 0;
+    width: 120px;
+}
+.bills-items div:hover{
+    background-color: rgba(0, 0, 0, 0.101);
+    border-radius: 13px;
+}
+#mobile-image{
+    width: 35%;
+    height: 30%;
+    float: right;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+#paytm-logo{
+    width: 80px;
+    margin-left: 150px;
+    margin-top: 150px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 13px;
+}
+#India{
+    font-weight: bold;
+    font-size: 3.5rem;
+    width: 500px;
+    margin-left: 150px;
+    margin-bottom: 0px;
+}
+#India-para{
+    font-weight: bold;
+    color: rgb(57, 56, 56);
+    font-size: 1.2rem;
+    width: 700px;
+    margin-left: 150px;
+}
+#Paytm-button1{
+    width: 280px;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Paytm-button1:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s;
+}
+.mobile-sreens{
+    height: 680px;
+}
+
+.ticket-booking{
+    background-color:#0f4a8a;
+    padding: 40px 150px;
+    height: 320px;
+ }
+ .ticket-booking div a{
+     color: white;
+     text-decoration: none;
+     margin: 30px;
+     font-weight: bold;
+     font-size: 1.2rem;
+     height: 30px; 
+ }
+ .ticket-booking div a img{
+    width: 60px;
+    margin-bottom: 0px;
+}
+
+.fa-greater-than{
+    font-size: 0.8rem;
+}
+#section4{
+    background-color: whitesmoke;
+    height: 1500px;
+}
+#paytm-head{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 200px;
+}
+.upi-transfer-box{
+   padding: 50px;
+   width: 70%;
+   background-color: white;
+   margin-left: 200px;
+   border-radius: 10px;
+   height: 500px;
+}
+#paytm-head2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 70px;
+}
+#upi-image{
+    width: 100px;
+}
+.upi-image-box{
+    margin-left: 70px;
+    display: flex;
+}
+#Paytm-button2{
+    width: 280px;
+    margin-left: 70px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Paytm-button2:hover{
+    background-color: white;
+    color: black;
+    transition: all 0.3s;
+}
+#upi-success-image{
+    width: 500px;
+    float: right;
+    height: 500px;
+}
+.hdfc-card1{
+    padding: 40px;
+   width: 60%;
+   background-color: white;
+   margin-left: 200px;
+   margin-top: 50px;
+   border-radius: 20px;
+   height: 585px;
+   /* margin-right: 0px; */
+}
+.hdfc-card-box{
+    padding: 50px;
+   width: 60%;
+   background-color: white;
+   margin-left: 200px;
+   border-radius: 10px;
+   height: 500px;
+}
+#sumit-sharma-card{
+    width: 450px;
+    margin-left: 20px;
+}
+#paytm-hdfc1{
+    margin-left: 20px;
+    display: flex;
+    width: 200px;
+}
+#paytm-head3{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 20px;
+}
+.pay-hdfc1{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.pay-hdfc2{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.pay-sbi2{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.sbi-card2{
+    padding: 40px;
+   width: 65%;
+   background-color: white;
+   margin-right: 90px;
+   margin-left: 20px;
+   margin-top: 50px;
+   border-radius: 20px;
+   height: 585px;
+}
+#paytm-head4{
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 20px;
+}
+#meha-sinha-card{
+    width: 450px;
+    margin-left: 20px;
+}
+
+.hdfc-sbi-card{
+    display: flex;
+}
+#paytm-sbi2{
+    margin-left: 20px;
+    display: flex;
+    width: 200px;
+    margin-top: 60px;
+}
+#section5{
+    height: 600px;
+}
+#insurense-broking{
+    margin-left: 180px;
+    width: 165px;
+    margin-top: 120px;
+}
+
+.head-para{
+    margin-left: 180px;
+}
+
+#insurance-head{
+    font-size: 2.5rem;
+}
+#buying-head{
+    font-size: 1rem;
+}
+#learn-button{
+    width: 180px;
+    padding: 5px 10px;
+    border-radius: 30px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #0f118a;
+    color: white;
+}
+#learn-button:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s ease-out;
+}
+#car-image{
+    width: 450px;
+    float: right;
+    margin-top: 80px;
+    margin-right:  150px;
+}
+#section6{
+    height: 600px;
+    background-color: whitesmoke;
+   
+}
+#mountains-design{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+}
+#paytm-money{
+    width: 150px;
+}
+.paytm-money-section{
+    margin-left: 180px;
+    width: 35%;
+    height: 500px;
+    padding: 20px;
+    float: right;
+    margin-top: 60px;
+    position: absolute;
+    margin-left: 820px;
+}
+.mountains-class{
+    background-image: url(/IMAGES/mountains-image.avif);
+}
+#build-header{
+    font-size: 2.5rem;
+}
+#invest-para{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(56, 53, 53);
+}
+#Paytm-Money-Image{
+    width: 450px;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 0;
+    position: absolute;
+    margin-left: 200px;
+}
